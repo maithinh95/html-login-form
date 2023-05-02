@@ -11,6 +11,7 @@ fi
 
 if [ -f bin/webserver.exe ]; then
     export PORT="3000";\
+        start http://localhost:3000;\
         exec bin/webserver.exe
 else
     exit 1
