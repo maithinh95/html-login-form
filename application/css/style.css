@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../static/images/background.png);
+    background-size:auto;
+    background-position: top;
+    font-family: sans-serif;
+}

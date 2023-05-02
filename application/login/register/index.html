@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style-register.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="register">
+        <img src="../../static/images/avatar-heart.png" title="avatar.png" class="avatar">
+        <form id="registerForm"> 
+            <input type="text" id="inputUsername" placeholder="Enter Username" onblur="getInputUsername()">
+            <input type="text" id="inputContact" placeholder="Enter PhoneNumber or Email" onblur="getInputContact()">
+            <input type="password" id="inputNewPassword" placeholder="Enter New Password" onblur="getInputNewPassword()">
+            <label>
+                By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>.<br>
+                You may receive SMS notifications from us and can opt out at any time.<br>
+            </label>
+            <input type="submit" value="Register" onclick="submitForm()">
+            <div class="link">
+                <a href="/login/#">I have account</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-login.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <img src="../static/images/avatar-heart.png" title="avatar.png" class="avatar">
+        <form id="loginForm"> 
+            <input type="text" id="inputUsername" placeholder="Enter Username" onblur="getInputUsername()">
+            <input type="password" id="inputPassword" placeholder="Enter Password" onblur="getInputPassword()">
+            <input type="submit" value="Login" onclick="submitForm()">
+            <div class="link">
+                <a href="/login/forgotten/#">&bull; Forgotten your password?</a><br>
+                <a href="/login/register/#">&bull; Don't have an account?</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
