@@ -4,7 +4,7 @@ body {
     background: url(../static/images/background.png);
     background-size: auto;
     background-position: top;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, sans-serif;
 }
 
 .topnav {
@@ -18,15 +18,30 @@ body {
     position: absolute;
 }
 
-.logo {
-    width: 50px;
+.topnav-home {
+    width: auto;
     height: 50px;
-    margin: calc(42px - 25px - 12px);
+    margin: calc(42px - 18px - 12px);
     padding: 0px;
     border-radius: 50%;
+    float: left;
+    background: none;
+    color: #fff;
+
+    text-decoration: none;
+    font-family: 'Comic Sans MS';
+    font-size: 36px;
+    font-weight: bold;
 }
 
-.topnav a {
+.topnav-home img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.topnav-logout {
     width: auto;
     height: 36px;
     margin: calc(42px - 18px - 12px);
@@ -40,13 +55,13 @@ body {
     font-size: 16px;
 }
 
-.topnav a:hover {
+.topnav-logout:hover {
     cursor: pointer;
     background: #ffc107;
     color: #000;
 }
 
-.topnav a img {
+.topnav-logout img {
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -56,7 +71,11 @@ body {
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
-    .topnav a {
+    .topnav-home {
+        float: none;
+        display: block;
+    }
+    .topnav-logout {
         float: none;
         display: block;
     }
