@@ -6,8 +6,10 @@ function getInputUsername() {
         console.error("document.getElementById(\"inputUsername\") exception!");
         return
     };
-
-    console.log("username=", username.value);
+ 
+    console.log(
+        `username: ${username.value} -> size= ${username.value.length}`
+    );
 }
 
 function getInputPassword() {
@@ -17,8 +19,10 @@ function getInputPassword() {
         console.error("document.getElementById(\"inputPassword\") exception!");
         return
     };
-    
-    console.log("password=", password.value);
+
+    console.log(
+        `password: ${password.value} -> size= ${password.value.length}`
+    );
 }
 
 function submitForm() {
@@ -36,7 +40,7 @@ function submitForm() {
         let username = document.getElementById("inputUsername");
         let password = document.getElementById("inputPassword");
 
-        if (username.value == "" || password.value == "") {
+        if (username.value.length < 3 || password.value.length <= 6) {
             // throw error
             console.log("Ensure you input a value in both fields!");
         } else {

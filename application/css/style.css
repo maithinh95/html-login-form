@@ -10,48 +10,54 @@ body {
 .topnav {
     width: 100%;
     height: fit-content;
+    margin: 0px;
+    padding: 12px 36px;
     background: #000;
     color: #fff;
-    position: absolute;
     box-sizing: border-box;
-    padding: 10px;
+    position: absolute;
 }
 
-.logout-button {
-    float: right;
-    padding: 5px 20px;
-    padding-left: 40px;
-    background: #fb2525;
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: calc(42px - 25px - 12px);
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.topnav a {
+    width: auto;
+    height: 36px;
+    margin: calc(42px - 18px - 12px);
+    padding-right: 12px;
     border-radius: 20px;
+    float: right;
+    background: #fb2525;
+    color: #fff;
+
+    text-decoration: none;
+    font-size: 16px;
 }
 
-.logout-button:hover {
+.topnav a:hover {
     cursor: pointer;
     background: #ffc107;
     color: #000;
 }
 
-.logout-icon {
-    width: 20px;
-    height: 20px;
+.topnav a img {
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
-    position: absolute;
-    top: calc(50% - 10px);
-    right: 98px;
-}
-
-.logout-button a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
+    vertical-align: middle;
 }
 
 
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
     .topnav a {
         float: none;
         display: block;
     }
-} */
+}
