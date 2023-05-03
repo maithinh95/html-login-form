@@ -62,7 +62,7 @@
 
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     .topnav-home {
         float: none;
         display: block;
@@ -71,4 +71,4 @@
         float: none;
         display: block;
     }
-}
+} */

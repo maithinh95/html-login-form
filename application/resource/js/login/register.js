@@ -65,7 +65,7 @@ function submitForm() {
             contact.value = "";
             password.value = "";
             // navigate to home page
-            window.location.replace("/login/#");
+            window.location.replace("/portal/login/#");
         }
     });
 }

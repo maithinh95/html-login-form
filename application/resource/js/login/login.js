@@ -56,7 +56,7 @@ function submitForm() {
             username.value = "";
             password.value = "";
             // navigate to home page
-            window.location.replace("/home/#");
+            window.location.replace("/portal/home/#");
         }
     });
 }
