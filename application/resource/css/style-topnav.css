@@ -2,8 +2,8 @@
 .topnav {
     width: 100%;
     height: fit-content;
-    min-width: max-content;
-    overflow: auto;
+    min-width: max-content; 
+    min-height: max-content;
     margin: 0px;
     padding: 12px 36px;
     background: #000;

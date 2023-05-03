@@ -4,6 +4,7 @@ body {
     background: url(../../static/images/background.png);
     background-size: auto;
     background-position: top;
+    min-width: max-content;
     min-height: max-content;
     overflow: auto;
     font-family: 'Courier New', Courier, sans-serif;

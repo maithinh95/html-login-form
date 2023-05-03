@@ -17,7 +17,11 @@
         <form id="registerForm"> 
             <input type="text" id="inputUsername" placeholder="Enter Username" onblur="getInputUsername()">
             <input type="text" id="inputContact" placeholder="Enter PhoneNumber or Email" onblur="getInputContact()">
-            <input type="submit" value="Send" onclick="submitForm()">
+            <label>
+                When you Submit your registered account information, we will send you an SMS or Email containing a link to reset your login information.<br>
+                Please check your messages or spam folder carefully if you don't see them.<br>
+            </label>
+            <input type="submit" value="Submit" onclick="submitForm()">
             <div class="link">
                 <a href="/portal/login/#">I have an account and password</a>
             </div>

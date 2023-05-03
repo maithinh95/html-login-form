@@ -10,6 +10,8 @@
 .register {
     width: 380px;
     height: 540px;
+    min-width: 380px;
+    min-height: 540px;
     margin-top: 50px;
     background: #000;
     color: #fff;

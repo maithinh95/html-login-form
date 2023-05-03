@@ -10,6 +10,8 @@
 .login {
     width: 380px;
     height: 420px;
+    min-width: 380px;
+    min-height: 420px;
     margin-top: 50px;
     background: #000;
     color: #fff;
@@ -21,7 +23,7 @@
     padding: 70px 30px;
 }
 
-.login form { 
+.login form {
     margin-top: 15%;
 }
 
@@ -30,7 +32,8 @@
     margin-bottom: 20px;
 }
 
-.login input[type="text"], input[type="password"] {
+.login input[type="text"],
+input[type="password"] {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -58,7 +61,7 @@
 }
 
 .link {
-    width: 100%; 
+    width: 100%;
     margin-bottom: 20px;
 }
 
